@@ -1,0 +1,43 @@
+{
+  "manifest_version": 2,
+  "name": "Toggle Ignored",
+  "description": "Adds a Toggle Ignored button",
+  "homepage_url": "https://addons.thunderbird.net/en-US/thunderbird/addon/toggle-ignored/",
+  "version": "1.0",
+  "experiment_apis": {
+    "toggleIgnoredApi": {
+      "schema": "schema.json",
+      "parent": {
+        "scopes": [
+          "addon_parent"
+        ],
+        "paths": [
+          [
+            "toggleIgnoredApi"
+          ]
+        ],
+        "script": "toggleIgnoredApi.js"
+      }
+    }
+  },
+  "background": {
+    "scripts": [
+      "toggleIgnored.js"
+    ]
+  },
+  "browser_action": {
+    "default_title": "Toggle Ignored",
+    "default_label": "Ignored",
+    "default_icon": "toggleIgnored.png"
+  },
+  "applications": {
+    "gecko": {
+      "id": "toggleIgnored@dillinger",
+      "strict_min_version": "68.0",
+      "strict_max_version": "124.*"
+    }
+  },
+  "icons": {
+    "32": "toggleIgnored32.png"
+  }
+}

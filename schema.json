@@ -1,0 +1,13 @@
+[
+  {
+    "namespace": "toggleIgnoredApi",
+    "functions": [
+      {
+        "name": "toggleIgnored",
+        "type": "function",
+        "async": true,
+        "parameters": []
+      }
+    ]
+  }
+]
