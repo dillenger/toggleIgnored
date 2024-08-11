@@ -2,3 +2,6 @@ Changelog for Toggle Ignored
 
 1.0
 First release.
+
+1.1
+ESMified the add-on.

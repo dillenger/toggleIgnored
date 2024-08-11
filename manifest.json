@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Toggle Ignored",
   "description": "Adds a Toggle Ignored button",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Dillinger",
   "homepage_url": "https://eillebrecht.net/phoenity/index.html",
   "experiment_apis": {
@@ -35,7 +35,7 @@
     "gecko": {
       "id": "toggleIgnored@dillinger",
       "update_url": "https://eillebrecht.net/phoenity/updates.txt",
-      "strict_min_version": "68.0"
+      "strict_min_version": "128.0"
     }
   },
   "icons": {

@@ -1,5 +1,4 @@
-var { ExtensionCommon } = ChromeUtils.import("resource://gre/modules/ExtensionCommon.jsm");
-var Services = globalThis.Services || ChromeUtils.import("resource://gre/modules/Services.jsm");
+var { ExtensionCommon } = ChromeUtils.importESModule("resource://gre/modules/ExtensionCommon.sys.mjs");
 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
 
 var toggleIgnoredApi = class extends ExtensionCommon.ExtensionAPI {
