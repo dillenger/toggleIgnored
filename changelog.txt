@@ -1,7 +1,8 @@
 Changelog for Toggle Ignored
 
+1.1
+Updated "browser_specific_settings".
+ESMified the add-on.
+
 1.0
 First release.
-
-1.1
-ESMified the add-on.
